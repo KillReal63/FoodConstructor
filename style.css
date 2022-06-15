@@ -25,6 +25,7 @@ body {
 }
 
 .construct {
+
 }
 
 .constructor-space {
@@ -48,12 +49,21 @@ body {
 }
 
 .close {
-  position: ;
-  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 15px;
 }
 
 .space-construct {
   height: 300px;
   width: 400px;
   border: 1px solid black;
+  background-color: white;
 }
