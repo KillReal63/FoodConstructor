@@ -28,6 +28,8 @@ body {
 }
 
 .constructor-space {
+  display: flex;
+  flex-direction: column;
   height: 400px;
   margin-top: 30px;
   border: 1px solid black;
@@ -47,13 +49,27 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-.close {
-  position: ;
-  display: flex;
+.add {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 15px;
 }
 
 .space-construct {
-  height: 300px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
   width: 400px;
+  padding-top: 20px;
   border: 1px solid black;
+  background-color: white;
+}
+.components-button {
+  margin: 5px;
+}
+
+.category {
+  text-align: center;
+  text-decoration: black underline;
 }
